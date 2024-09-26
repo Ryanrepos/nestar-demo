@@ -13,6 +13,10 @@ const Top = () => {
                         </Link>
                     </Box>
                     <Box component={"div"} className={"router-box"}>
+                        
+                        <Link href={"/"}>
+                            <div>Home</div>
+                        </Link>
                         <Link href={"/property"}>
                             <div>Properties</div>
                         </Link>
